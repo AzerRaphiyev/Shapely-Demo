@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    width: 80vw;
+    margin: auto;
+    
+    
+    
+}
+
+.container .logo a{
+    font-size: 24px;
+    line-height: 52px;
+    color: #666;
+    font-weight: 300;
+}
+.nav ul li a{
+
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: -1px;
+    color: #4c4c4c;
+    max-width: 100%;
+    white-space: normal;
+    transition: .3s
+    
+}
+.nav ul li:hover a{
+    color: #212ca6;
+    font-weight: 400;
+}
+.nav ul  {
+    text-align: center;
+    list-style: none;
+}
+ .nav ul li{
+   margin-top: 10px;
+}
+
+.nav ul li a span{
+    font-size: .7rem;
+}
+
+
+main .slider1{
+    background: url(img/photo-1443527216320-7e744084f5a7-1.jpg) 50%/cover   ;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 90vh;
+}
+.slider1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.slider1 h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+}
+.slider1 p {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    flex-direction: column;
+    
+}
+.btn button{
+    margin-top: 10px;
+    border: 0;
+    padding: 13px 26px;
+    color: #fff;   
+    text-transform: uppercase
+    
+}
+.btn .btn1{
+    background: #745cf9;
+    font-weight: 600;
+    transition: .4s;
+}
+.btn1:hover{
+    background: #341cb6cc;
+    
+}
+.btn .btn2{
+    background-color: #ffffff00;
+    border: 2px solid #fff;
+    min-width: 200px;
+    font-weight: 600;
+    transition: .4s;
+}
+.btn2:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+
+.main_container{
+    width: 100vw;
+    margin: auto;
+    
+}
+.section1{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5%;
+    
+}
+.sectionimgs img{
+    width: 45vw;
+    align-items: flex-start;
+}
+.sectiontitles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+   
+}
+.sectiontitles h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #0e1015;
+ 
+    margin: 0 0 24px 0;
+    
+}
+.sectiontitles p{
+    font-size: 14px;
+    margin: 0 0 24px 0;
+    line-height: 24px;
+    color: #8c979e;
+}
+.section2{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+   
+  
+    background-color: #F5F5F5;
+}
+.slider2{
+    background: url(img/photo-1452723312111-3a7d0db0e024.jpg) center/cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 60vh;
+}
+.slider_container{
+    width: 80vw;
+    margin: auto;
+}
+.slider2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+.slider2 h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 100;
+}
+.slider2 p {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    line-height: 2;
+}
+
+.section3{
+    padding: 20vh 0 0 0 ;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section3 h3{
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #0e1015;
+    margin-bottom: 24px;    
+}
+.section3 p{
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 100;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #8c979e;
+}
+.section3 img{
+    margin-top: 5vh;
+    width: 100vw;
+
+}
+
+.section4{
+    padding-top: 96px;
+    padding-bottom: 30px;
+    color: #fff;
+    background-color: #0E1015;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section4 h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin:  0 0 32px 0;
+}
+.section4 p{
+    text-align: center;
+    font-size: .75em;
+    margin:  0 0 40px 0;
+}
+
+.galary {
+    display: flex;
+    flex-direction: column;
+}
+.galary div{
+    width: 100%;
+    position: relative;
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    h5{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0.8324579831932774) 0%, rgba(0,0,0,0.3226540616246498) 100%);
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+.section5 {
+    padding: 40px 0 40px 0;
+    color: #fff;
+    background: url(img/section5.jpg) center/cover;
+    background-attachment: fixed;
+
+}
+
+.section5container{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    h2 {
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+    }
+}
+
+.section5container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:300px;
+    
+    img{
+        width: 100px;
+        border-radius: 50%;
+    }
+    a{
+        color: #ffffffa6;
+        font-size: 1.5em;
+    }
+}
+
+
+.section6{
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+h2{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+}
+
+.section6 div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    img{
+        width: 4%;
+    }
+}
+.section7{
+    background-color: #F5F5F5;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    p{
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+    }
+}
+
+footer{
+    background-color: #0E1015;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    p{
+        font-size: 1.3em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+footer div a{
+    font-size: 1.3em;
+    color: #fff;
+    transition: .3s;
+}
+footer div a:hover{
+    color: #212ca6;
+    scale: 1.1;
+}
+
+
+@media only screen and (min-width:768px){
+    .container .nav ul{
+        display: flex;
+    }
+    header{
+        width: 100vw;
+        background: #fff;
+        position: fixed;
+        z-index: 1;
+    }
+
+   
+    .container{
+        flex-direction: row;
+    }
+    .container .nav ul li{
+        margin: 0 30px 0 0;
+     }
+   
+     main .slider1{
+        width: 100vw;
+        height: 90vh;
+    }
+    .slider1 h1{
+        
+        font-size: 4rem;
+    }
+    .slider2 h1{
+        font-size: 4rem;
+    }
+    .btn {
+        flex-direction: row;
+        gap: 2%;
+    }
+    .btn .btn1{
+        min-width: 200px;
+    }
+    .section1{
+        padding: 50px 0;
+        flex-direction: row;
+        align-items: center;
+        gap: 5%;
+    }
+    .sectiontitles{
+       width: 30vw;       
+    }
+    
+    .section2{
+        padding: 50px 0;
+        flex-direction: row;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .section4 h3{
+        text-align: center;
+        font-size: 3em;
+        margin:  0 0 32px 0;
+    }
+    .section4 p{
+        text-align: center;
+        font-size: 1em;
+        margin:  0 0 40px 0;
+    }
+    .section3 img{
+        width: 69vw;
+    }
+    .galary {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .galary div{
+        
+        width: 25%;
+       
+        
+            h5 {
+               
+                height: 0;
+                overflow: hidden;
+                transition: 0.5s ease-in-out;
+              }
+        
+        
+    }
+    .galary div:hover h5{
+        width: 100%;
+        height: 100%;
+    }
+    
+
+}
